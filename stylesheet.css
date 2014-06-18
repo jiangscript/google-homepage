@@ -79,6 +79,7 @@ a:hover {
 	padding: 0 8px;
 	margin: 5px;
 	color: #4D4D4D;
+	cursor: pointer;
 }
 
 form {
