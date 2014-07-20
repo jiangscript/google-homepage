@@ -7,18 +7,44 @@ body {
 	padding: 0;
 }
 
+/*Links in nav and footer*/
+nav a, footer a {
+	text-decoration: none;
+	padding: 5px 8px 5px 8px;
+	display: inline;
+	color: #666666;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+/*Navigation bar*/
 nav {
 	display: block;
 	text-align: right;
 	margin-top: 10px;
 }
 
+nav ul {
+/*	list-style-type: none;
+*/	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+/*Menu and notifications icon*/
 .icon {
 	height: 33px;
 	width: 33px;
-	vertical-align: middle;
+	vertical-align: middle; /*keeps menu and bell icons in line with nav bar*/
 }
 
+/*Share icon and profile image*/
 #share {
 	height: 33px;
 	vertical-align: middle;
@@ -31,29 +57,7 @@ nav {
 	border-radius: 100%;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-	display: inline;
-}
-
-a {
-	text-decoration: none;
-	padding: 5px 8px 5px 8px;
-	display: inline;
-	color: #666666;
-	font-size: 13px;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-}
-
+/*Logo and search form + buttons*/
 #logo {
 	display: block;
 	height: 225px;
@@ -68,7 +72,7 @@ a:hover {
 .button {
 	height: 29px;
 	line-height: 29px;
-	min-width: 54px;
+/*	min-width: 54px;*/
 	border: 1px solid #cccccc;
 	background-color: #f2f2f2;
 	border-radius: 2px;
@@ -79,14 +83,16 @@ a:hover {
 	padding: 0 8px;
 	margin: 5px;
 	color: #4D4D4D;
-	cursor: pointer;
+	cursor: pointer; /*fake button*/
 }
+
+/*form {
+	padding: 8px;
+}*/
+/*
+input[type="text"]*/ 
 
 form {
-	padding: 8px;
-}
-
-input[type="text"] {
 	display: block;
 	width: 569px;
 	height: 26px;
@@ -94,6 +100,7 @@ input[type="text"] {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+/*Footer styling*/
 footer {
 	background-color: #f2f2f2;
 	width:	100%;
@@ -106,11 +113,11 @@ footer {
 #terms {
 	text-align: left;
 	display: inline-block;
-	width:	49%;
+	width:	50%;
 }
 
 #settings {
 	text-align: right;
 	display: inline-block;
-	width:	49%;
+	width:	50%;
 }
