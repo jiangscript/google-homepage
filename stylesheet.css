@@ -69,6 +69,15 @@ nav li {
 	text-align: center;
 }
 
+input {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 569px;
+	margin: 0 auto;
+	display: block;
+	height: 26px;
+}
+
+
 .button {
 	height: 29px;
 	line-height: 29px;
@@ -81,7 +90,7 @@ nav li {
 	font-weight: bold;
 	font-family: Arial, sans-serif;
 	padding: 0 8px;
-	margin: 5px;
+	margin: 12px 5px;
 	color: #4D4D4D;
 	cursor: pointer; /*fake button*/
 }
@@ -94,10 +103,9 @@ input[type="text"]*/
 
 form {
 	display: block;
-	width: 569px;
 	height: 26px;
 	margin: 0 auto;
-	border: 1px solid rgba(0, 0, 0, 0.2);
+
 }
 
 /*Footer styling*/
@@ -113,11 +121,11 @@ footer {
 #terms {
 	text-align: left;
 	display: inline-block;
-	width:	50%;
+	width:	49%;
 }
 
 #settings {
 	text-align: right;
 	display: inline-block;
-	width:	50%;
+	width:	49%;
 }
